@@ -51,7 +51,7 @@ public class UserControl {
 
         List<UserDto> userDtoList=userService.getAllUser();
 
-        if(userListResponse!=null){
+        if(userDtoList!=null){
 
             meta.errorCode=2010;
             meta.errorDescription="tüm kullanıcılar(user) bulundu";
